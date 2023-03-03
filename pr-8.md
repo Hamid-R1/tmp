@@ -33,7 +33,7 @@
 	- Subnet name: pr8-private-subnet-1
 	- Availability Zone: ap-southeast-1a
 	- IPv4 CIDR block: 10.0.3.0/24
-	-
+
 	- Subnet name: pr8-private-subnet-2
 	- Availability Zone: ap-southeast-1b
 	- IPv4 CIDR block: 10.0.4.0/24
@@ -42,7 +42,7 @@
 	- Subnet name: pr8-database-subnet-1
 	- Availability Zone: ap-southeast-1a
 	- IPv4 CIDR block: 10.0.5.0/24
-	-
+
 	- Subnet name: pr8-database-subnet-2
 	- Availability Zone: ap-southeast-1b
 	- IPv4 CIDR block: 10.0.6.0/24

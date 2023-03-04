@@ -1,7 +1,9 @@
 project-08-V1
 
 
-# AWS 3 Tier Architecture
+# AWS Infra Architecture for this project
+![Untitled Diagram drawio (25)](https://user-images.githubusercontent.com/112654341/222919120-badf7588-0589-49de-a8d0-fc88a059d092.png)
+
 - 1 vpc
 - 6 subnets
 - 3 route tables
@@ -13,7 +15,7 @@ project-08-V1
 - 1 ALB with target group
 - 1 bastion-server
 
-![Untitled Diagram drawio (25)](https://user-images.githubusercontent.com/112654341/222919120-badf7588-0589-49de-a8d0-fc88a059d092.png)
+
 
 
 

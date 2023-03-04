@@ -15,8 +15,6 @@ project-08-V1
 - 1 ALB with target group
 - 1 bastion-server
 
-[Untitled Diagram.drawio (3).pdf](https://github.com/Hamid-R1/tmp/files/10889228/Untitled.Diagram.drawio.3.pdf)
-
 
 ## Step-A: VPC Complete Network Creation in Singapore-Region (ap-southeast-1)
 - 1 vpc
@@ -115,7 +113,8 @@ project-08-V1
 - 1 security group for rds-server
 - add here security groups architecture
 
-![Uploading Untitled Diagram.drawio (23).png…]()
+
+![Untitled Diagram drawio (23)](https://user-images.githubusercontent.com/112654341/222919709-71b2828d-ac46-4694-af8c-76a31df782af.png)
 
 
 ### Step-B-01: create 1 security group for bastion-server

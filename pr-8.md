@@ -171,8 +171,8 @@ project-08-V1
 
 ### Step-C-01: create subnet-group for rds-server
 - Name: db-subnet-group
-- Description: db-subnet-group-for-rds-server
-- VPC: pr8-vpc
+- Description:  db-subnet-group-for-rds-server
+- VPC:   pr8-vpc
 - Availability Zones: 
 	- ap-southeast-1a:	database-subnet-1(10.0.5.0/24)
 	- ap-southeast-1b:	database-subnet-2(10.0.6.0/24)

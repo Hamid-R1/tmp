@@ -15,8 +15,7 @@ project-08-V1
 - 1 ALB with target group
 - 1 bastion-server
 
-
-
+[Untitled Diagram.drawio (3).pdf](https://github.com/Hamid-R1/tmp/files/10889228/Untitled.Diagram.drawio.3.pdf)
 
 
 ## Step-A: VPC Complete Network Creation in Singapore-Region (ap-southeast-1)

@@ -115,6 +115,8 @@ project-08-V1
 - 1 security group for rds-server
 - add here security groups architecture
 
+![Uploading Untitled Diagram.drawio (23).png…]()
+
 
 ### Step-B-01: create 1 security group for bastion-server
 - Security group name: bastion-sg

@@ -66,6 +66,9 @@ volumes:
 ```
 docker exec -it project_db_1 bin/bash
 
+# go to mysql client/cli
+mysql -u root -p		#password is 'admin123'
+
 # see databases
 mysql> show databases;
 

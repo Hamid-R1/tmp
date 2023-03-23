@@ -15,6 +15,19 @@ apt install docker-compose -y
 docker-compose -v
 ```
 
+- or `run all in once` see below:
+```
+{
+sudo su
+apt-get update
+apt install docker.io -y
+apt install docker-compose -y
+docker --version
+docker-compose -v
+}
+```
+
+
 
 ```
 mkdir project

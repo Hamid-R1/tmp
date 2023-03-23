@@ -7,18 +7,9 @@ project-08-V2
 ======= install docker && docker-compose on ubuntu20.04 =========
 
 ```
-sudo su -
-apt-get update -y
-apt install docker.io -y
-docker --version
-apt install docker-compose -y
-docker-compose -v
-```
-
-- or `run all in once` see below:
-```
-{
 sudo su
+
+{
 apt-get update
 apt install docker.io -y
 apt install docker-compose -y
@@ -26,7 +17,6 @@ docker --version
 docker-compose -v
 }
 ```
-
 
 
 ```

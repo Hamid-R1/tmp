@@ -207,7 +207,7 @@ docker-compose up -d
 
 - copy public-ip & paste to new tab & see website,
 	- get error `Error establishing a database connection`
-	- leave this `push-pull approach because we try many times but we didnt get.
+	- leave this `push-pull` approach because we try many times but we didnt get.
 
 
 #### ===============>Thank You<=====================

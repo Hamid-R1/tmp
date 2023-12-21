@@ -1,0 +1,53 @@
+#########################################
+# OpenStack CLI for Neutron Network Service
+#########################################
+
+# Create a network
+openstack network create my-private-network
+
+# Create external network
+openstack network create --share --external --provider-network-type flat --provider-physical-network physnet1 my-network
+
+# Create a subnet 
+openstack subnet create --network my-network --subnet-range 10.0.0.0/24 --gateway 10.0.0.1 --allocation-pool start=10.0.0.2,end=10.0.0.254 --dns-nameserver 8.8.8.8 my-subnet
+
+# Create a router
+openstack router create my-router
+
+# Attach subnet to router
+openstack router add subnet my-router my-subnet
+
+# Set a gateway for the router
+openstack router set --external-gateway my-network my-router
+
+
+
+####################
+# Additional notes
+####################
+
+# List networks: 
+openstack network list
+
+# Show network details: openstack network show <network_name>
+
+# Delete a network: 
+openstack network delete <network_name>
+
+# List subnets: 
+openstack subnet list
+
+# Show subnet details: 
+openstack subnet show <subnet_name>
+
+# Delete a subnet: 
+openstack subnet delete <subnet_name>
+
+# List routers: 
+openstack router list
+
+# Show router details: 
+openstack router show <router_name>
+
+# Delete a router: 
+openstack router delete <router_name>

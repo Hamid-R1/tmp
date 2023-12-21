@@ -1,0 +1,33 @@
+#########################################
+# OpenStack CLI for Nova Compute Service
+#########################################
+
+
+# Create an instance and attach the block storage volume
+openstack server create \
+  --flavor m1.small \
+  --image cirros \
+  --network private-net \
+  --key-name my-keypair \
+  --block-device source=volume,id=my-volume,dest=volume,shutdown=preserve \
+  my-instance
+ 
+
+
+# Check instance status
+openstack server list
+
+# Check available flavors: 
+openstack flavor list
+
+# List available images: 
+openstack image list
+
+# List available networks: 
+openstack network list
+
+# List available security groups: 
+openstack security group list
+
+# List existing keypairs: 
+openstack keypair list

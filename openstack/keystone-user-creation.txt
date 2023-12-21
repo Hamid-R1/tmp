@@ -1,0 +1,30 @@
+#################
+# OpenStack CLI Commands for project, user, role, create and list
+#################
+
+# Create a new project
+openstack project create --description "My Project" my_project
+
+# Create a new user
+openstack user create --domain default --password-prompt --email user@example.com my_user
+
+# Assign a role to the user
+openstack role add --project my_project --user my_user admin
+
+# To list existing users: 
+openstack user list
+
+# To show details of a user: 
+openstack user show <username>
+
+# To delete a user: 
+openstack user delete <username>
+
+# To set a user's password: 
+openstack user set --password <new_password> <username>
+
+# To list available roles: 
+openstack role list
+
+# To create a new role: 
+openstack role create <role_name>

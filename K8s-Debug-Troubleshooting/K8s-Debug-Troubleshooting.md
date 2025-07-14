@@ -159,7 +159,7 @@ kubectl describe pod pod-name
 ```
 
 ### Not Ready Pod
-Readiness probe fails â†’ no traffic routed by Service
+Readiness probe fails -> no traffic routed by Service
 
 Fix:
 ```bash
@@ -213,9 +213,9 @@ When pods and services are fine, but you can't access the app:
   curl localhost:3000/api/devices
   ```
 
-If this works â†’ infrastructure issue (e.g., LB exposure)
+If this works -> infrastructure issue (e.g., LB exposure)
 
-If not â†’ misconfigured Ingress
+If not -> misconfigured Ingress
 
 Each ingress controller (e.g., NGINX, HAProxy, Traefik) has its own debugging docs. Refer to them as needed.
 
@@ -233,8 +233,6 @@ You should always debug **bottom-up**:
 > - CronJobs
 > - StatefulSets
 > - DaemonSets
-
-Stay tuned for more advanced guides like Ingress + TLS with cert-manager.
 
 ---
 

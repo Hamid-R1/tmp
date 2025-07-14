@@ -1,17 +1,3 @@
-01-short-notes-K8s-Debug-Troubleshooting-by-Anton-Putra.md
-
-
-
--Noted: this short-notes is created for quick revison from a notes called:
-	"01-K8s-Troubleshooting-Debug-by-Anton-Putra.txt"
-so if u have any doubt then see original detailed notes.
-
-
-
--Notes started from below......
-
-
-
 
 # Kubernetes Troubleshooting Guide
 
@@ -206,7 +192,7 @@ kubectl describe pod pod-name
 
 
 ### Pods in NotReady state
-Readiness probe is failing, so pod wonâ€™t receive traffic via Service.
+Readiness probe is failing, so pod will not receive traffic via Service.
 
 Fix:
 ```bash
